@@ -1,4 +1,4 @@
-function add (arr) {
+function add2(arr) {
     var result = 0;
     for (var i = 0; i < arr.length; i++) {
         result += arr[i];
@@ -6,4 +6,4 @@ function add (arr) {
     return result;
 }
 
-module.exports = add;
+module.exports = add2;
