@@ -16,3 +16,6 @@ test ("that the addition of a string and a number should output invalid input", 
 test ("that the addition of two strings should output invalid output", () =>{
     expect(add2("three", "four")).toBe("invalid input")
 });
+test ("that a function with an empty parameters should output Enter numbers to add", () =>{
+    expect(add2()).toBe("Enter numbers to add")
+});
