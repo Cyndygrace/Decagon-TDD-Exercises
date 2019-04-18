@@ -9,3 +9,4 @@ function concatenate(firstString, secondString) {
      }
 }
 
+module.exports = concatenate;
