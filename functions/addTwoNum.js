@@ -8,4 +8,4 @@ function add2(firstNumber, secondNumber) {
         return "invalid input"
     }
 }
-
+module.exports = add2;
