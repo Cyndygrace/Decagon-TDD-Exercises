@@ -18,3 +18,6 @@ test ("that only one parameter instead of two should output invalid input", () =
 test ("test that an empty string and done should output invalid input", () =>{
     expect(concatenate("", "done")).toBe("done");
 })
+test ("that booleanType false and stringType true should output invalid input", () =>{
+    expect(concatenate(false, "true")).toBe("invalid input")
+})
