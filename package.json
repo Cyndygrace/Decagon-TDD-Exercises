@@ -12,6 +12,10 @@
   "author": "Cynthia Iloekwe",
   "license": "ISC",
   "devDependencies": {
+    "axios": "^0.18.0",
     "jest": "^24.7.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.3.0"
   }
 }
