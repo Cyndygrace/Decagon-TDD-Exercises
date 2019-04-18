@@ -8,3 +8,4 @@ function multiply(firstNumber, secondNumber) {
         return "invalid input"
     }
 }
+module.exports = multiply;
