@@ -12,3 +12,6 @@ test ("that a function with an empty parameters should output Enter Two words", 
 test ("that two numbers as input parameter should outputs invalid input", () =>{
     expect(concatenate(2, 2)).toBe("invalid input");
 })
+test ("that only one parameter instead of two should output invalid input", () =>{
+    expect(concatenate("joy")).toBe("invalid input");
+})
