@@ -1,2 +1,9 @@
 const add2 = require("../functions/addTwoNum");
+test ("that the addition of two numbers outputs the coorect result", () =>{
 
+    expect(add2(2, 2)).toBe(4)
+});
+test ("that the addition of 30 and 50 outputs 80", () =>{
+
+    expect(add2(30, 50)).toBe(80)
+});
