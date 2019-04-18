@@ -19,3 +19,9 @@ test ("that the addition of two strings should output invalid output", () =>{
 test ("that a function with an empty parameters should output Enter numbers to add", () =>{
     expect(add2()).toBe("Enter numbers to add")
 });
+test ("that the addition of NaN and a number should output invalid input", () =>{
+    expect(add2(NaN, 2)).toBe("invalid input")
+}); 
+//test ("no number and no number should output invalid string", () => {
+  // expect(add2( + )).toBe("invalid input")
+//});
