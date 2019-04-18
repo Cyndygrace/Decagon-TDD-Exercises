@@ -25,3 +25,6 @@ test ("that the addition of NaN and a number should output invalid input", () =>
 //test ("no number and no number should output invalid string", () => {
   // expect(add2( + )).toBe("invalid input")
 //});
+test ("that only one string as a parameter should output invalid string", () => {
+    expect(add2("five")).toBe("invalid input")
+});
