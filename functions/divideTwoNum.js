@@ -8,3 +8,4 @@ function divide(firstNumber, secondNumber) {
         return "invalid input"
     }
 }
+module.exports = divide;
