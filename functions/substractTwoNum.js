@@ -8,3 +8,4 @@ function substract(firstNumber, secondNumber) {
         return "invalid input"
     }
 }
+module.exports = substract;
