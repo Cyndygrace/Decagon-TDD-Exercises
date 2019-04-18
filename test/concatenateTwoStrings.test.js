@@ -9,3 +9,6 @@ test("that big house output bighouse ", () =>{
 test ("that a function with an empty parameters should output Enter Two words", () =>{
     expect(add2()).toBe("Enter two words")
 });
+test ("that two numbers as input parameter should outputs invalid input", () =>{
+    expect(concatenate(2, 2)).toBe("invalid input");
+})
