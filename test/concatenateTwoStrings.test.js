@@ -21,3 +21,6 @@ test ("test that an empty string and done should output invalid input", () =>{
 test ("that booleanType false and stringType true should output invalid input", () =>{
     expect(concatenate(false, "true")).toBe("invalid input")
 })
+test ("that a number and a string should output invalid input", () =>{
+    expect(concatenate(2, "call")).toBe("invalid input")
+})
